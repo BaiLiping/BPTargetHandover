@@ -15,7 +15,7 @@ This work presents a belief-propagation-based approach for target handover in di
 - **Centralized Tracking**: Traditional centralized target tracking implementation
 - **Distributed Tracking**: Distributed target tracking using belief propagation
 - **Target Handover**: Intelligent handover mechanism between base stations
-- **Performance Evaluation**: GOSPA metrics and comprehensive evaluation tools
+- **Performance Evaluation**: GOSPA metrics and comprehensive evaluation tools (this is like a Chalmers specific thing, not really necessary. You don't have to spend time understand it, and I won't use this metrics going forward.)
 - **Visualization**: Rich visualization tools for simulation results and tracking performance
 
 ## 📁 Project Structure
