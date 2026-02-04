@@ -8,7 +8,7 @@ This repository contains the implementation and experimental data for the paper 
 
 ## 📖 Abstract
 
-This work presents a novel belief-propagation-based approach for target handover in distributed integrated sensing and communication (ISAC) systems. Our method enables efficient coordination between multiple base stations for seamless target tracking and handover decisions.
+This work presents a belief-propagation-based approach for target handover in distributed integrated sensing and communication (ISAC) systems. Our method enables efficient coordination between multiple base stations for seamless target tracking and handover decisions.
 
 ## 🚀 Features
 
