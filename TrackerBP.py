@@ -130,7 +130,6 @@ class TrackerBP:
         num_measurements = sensor_measurements.shape[1] if sensor_measurements.size else 0
         # Access sensor position as a 2D column vector.
         sensor_position = self.sensor_positions[:, sensor_index]
-        detection_probability = self.p_d
         clutter_intensity = self.mu_c * self.f_c
         # Use measurement_range parameter if available; otherwise, use sensingRange.
         measurement_range = self.parameters.get('measurement_range', self.sensingRange)
@@ -158,7 +157,7 @@ class TrackerBP:
             current_max_label = max(self.gamma.label) if self.gamma.label else 0
             self.varsigma.label.append(current_max_label + meas + 1)
             self.varsigma.existence.append(measurements_likelihood[meas] *
-                                             (self.mu_n * detection_probability) / clutter_intensity)
+                                             (self.mu_n) / clutter_intensity)
             self.xi[meas] = 1 + deepcopy(self.varsigma.existence[-1])
 
     def compute_beta(self,
