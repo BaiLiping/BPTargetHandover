@@ -133,8 +133,6 @@ class TrackerBP:
         clutter_intensity = self.mu_c * self.f_c
         # Use measurement_range parameter if available; otherwise, use sensingRange.
         measurement_range = self.parameters.get('measurement_range', self.sensingRange)
-        # Birth intensity computed based on measurement_range.
-        birth_intensity = self.mu_n / (2 * np.pi * measurement_range ** 2)
 
         # Initialize new particles from the given sensor position.
         self.new_particles = self.initiate_particles(sensor_position)
