@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-This repository contains the implementation and experimental data for the paper *"[Belief-Propagation based Target Handover in Distributed Integrated Sensing and Communication](https://arxiv.org/abs/2506.23118)"* published at GlobeCom 2025. The code is adapted from [https://github.com/meyer-ucsd/EOT-TSP-21][([[https://github.com/meyer-ucsd/EOT-TSP-21](https://github.com/meyer-ucsd/MTT-PIEEE-18)](https://github.com/meyer-ucsd/MTT-PIEEE-18))](https://github.com/meyer-ucsd/MTT-PIEEE-18).
+This repository contains the implementation and experimental data for the paper *"[Belief-Propagation based Target Handover in Distributed Integrated Sensing and Communication](https://ieeexplore.ieee.org/document/11432274)"* published at GlobeCom 2025. The code is adapted from [https://github.com/meyer-ucsd/EOT-TSP-21][([[https://github.com/meyer-ucsd/EOT-TSP-21](https://github.com/meyer-ucsd/MTT-PIEEE-18)](https://github.com/meyer-ucsd/MTT-PIEEE-18))](https://github.com/meyer-ucsd/MTT-PIEEE-18).
 
 ## 📖 Abstract
 
