@@ -128,12 +128,16 @@ The project evaluates performance using:
 If you use this code in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{author2025bp,
-  title={Belief-Propagation based Target Handover in Distributed Integrated Sensing and Communication},
-  author={Author Names},
-  booktitle={IEEE Global Communications Conference (GLOBECOM)},
+@INPROCEEDINGS{11432274,
+  author={Bai, Liping and Ge, Yu and Wymeersch, Henk},
+  booktitle={GLOBECOM 2025 - 2025 IEEE Global Communications Conference}, 
+  title={Belief Propagation-based Target Handover in Distributed Integrated Sensing and Communication}, 
   year={2025},
-  organization={IEEE}
+  volume={},
+  number={},
+  pages={752-757},
+  keywords={6G mobile communication;Base stations;Target tracking;Computational modeling;Scalability;Urban areas;Handover;Integrated sensing and communication;Trajectory;Belief propagation;6G;DISAC;tracking;trajectory;target handover;belief propagation},
+  doi={10.1109/GLOBECOM59602.2025.11432274}}
 }
 ```
 
